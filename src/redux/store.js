@@ -1,6 +1,5 @@
 import { applyMiddleware, createStore, compose } from "redux";
 import { createEpicMiddleware } from "redux-observable";
-
 import combinedReducers from "./reducers";
 import combinedEpics from "./actions";
 import { loadState } from "../helpers";
@@ -17,9 +16,6 @@ const stateFromLocalStorage = loadState();
 
 const epicMiddleware = createEpicMiddleware(combinedEpics);
 
-// const epicMiddleware = createEpicMiddleware();
-// // const store = createStore(rootReducer, applyMiddleware(epicMiddleware));
-
 const store = createStore(
   combinedReducers,
   stateFromLocalStorage,
@@ -27,7 +23,5 @@ const store = createStore(
     applyMiddleware(epicMiddleware, multiDispatch, ...sampleModule, ...error)
   )
 );
-
-// epicMiddleware.run(combinedEpics);
 
 export default store;

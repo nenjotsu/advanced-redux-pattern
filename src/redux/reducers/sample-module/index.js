@@ -4,8 +4,8 @@ import model from "./model";
 
 export default handleActions(
   {
-    [ACTION.getsampleModule]: (state, action) => {
-      console.log(action);
+    [ACTION.getSampleModule]: (state, action) => {
+      console.log("action.payload", action.payload);
       return {
         ...state,
         sampleModuleList: action.payload

@@ -3,8 +3,8 @@ import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
 import List from "antd/lib/list";
 import Icon from "antd/lib/icon";
-import Button from "antd/lib/button";
 import store from "./redux/store";
+import SampleModule from "./containers/sample-module";
 
 import "antd/dist/antd.css";
 import "./styles.css";
@@ -31,10 +31,7 @@ function App() {
         )}
       />
       <div className="button-list">
-        <Button className="btn">Get</Button>
-        <Button className="btn">Post</Button>
-        <Button className="btn">Delete</Button>
-        <Button className="btn">Cancel</Button>
+        <SampleModule />
       </div>
     </div>
   );

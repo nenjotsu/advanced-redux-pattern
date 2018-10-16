@@ -15,8 +15,8 @@ const getSampleModuleFlow = ({ dispatch }) => next => action => {
     dispatch([
       showSpinner(),
       getAjaxRequestEpic({
-        url: url.post,
-        body: action.payload,
+        url: url.posts,
+        body: null,
         onCancel: TYPE.GET_SAMPLE_MODULE_CANCEL,
         onSuccess: getSampleModuleSuccess
       })
