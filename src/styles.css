@@ -1,4 +1,19 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  padding: 20px;
+}
+
+.icon {
+  margin-right: 10px;
+  margin-top: 4px;
+  color: green;
+}
+
+.button-list {
+  margin-top: 10px;
+}
+
+.btn {
+  margin-right: 5px;
 }
