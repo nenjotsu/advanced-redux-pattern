@@ -10,7 +10,11 @@ export default handleActions(
         ...state,
         sampleModuleList: action.payload
       };
-    }
+    },
+    [ACTION.clearData]: (state, action) => ({
+      ...state,
+      sampleModuleList: []
+    })
   },
   model
 );
