@@ -19,6 +19,7 @@ visit the [https://codesandbox.io/s/github/nenjotsu/advanced-redux-pattern](http
 
 
 ## TODOs
+- Tutorial @medium article - In-progress
 - Implement [reselect](https://github.com/reduxjs/reselect) for memoizing redux state
 
 ## For more question follow me
