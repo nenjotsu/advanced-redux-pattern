@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Button from "antd/lib/button";
 import List from "antd/lib/list";
 import Spin from "antd/lib/spin";
+import message from "antd/lib/message";
 import { defaultProps, propTypes, contextTypes } from "./helpers";
 
 class SampleModule extends Component {
@@ -22,6 +23,7 @@ class SampleModule extends Component {
   };
 
   getSampleModuleDataCancel = () => {
+    message.warning("request has been cancelled");
     this.props.reduxAction.getSampleModuleCancel();
   };
 
