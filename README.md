@@ -4,6 +4,8 @@ Advanced redux pattern for handling multiple sub dispatch, reusable middleware a
 
 visit the [https://codesandbox.io/s/github/nenjotsu/advanced-redux-pattern](https://codesandbox.io/s/github/nenjotsu/advanced-redux-pattern)
 
+![alt text](./redux.png "Advanced Redux Pattern")
+
 ## Features:
 - Reusable Ajax Request as dispatch using rxjs & redux-observables for side effects
 - Cancellable Request, in `ComponentWillUnmount` or manual cancel request
