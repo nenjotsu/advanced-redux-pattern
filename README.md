@@ -18,5 +18,7 @@ visit the [https://codesandbox.io/s/github/nenjotsu/advanced-redux-pattern](http
 ## TODOs
 - Implement reselect for memoizing redux state
 
-
+## For more question follow me
+- twitter [@nenjotsu](https://twitter.com/nenjotsu)
+- github [@nenjotsu](https://github.com/nenjotsu)
 
