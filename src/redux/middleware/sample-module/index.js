@@ -12,7 +12,6 @@ const getSampleModuleFlow = ({ dispatch }) => next => action => {
   next(action);
 
   if (action.type === TYPE.GET_SAMPLE_MODULE_EPIC) {
-    console.log("url.posts", url.posts);
     dispatch([
       showSpinner(),
       getAjaxRequestEpic({
