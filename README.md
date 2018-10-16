@@ -21,4 +21,4 @@ visit the [https://codesandbox.io/s/github/nenjotsu/advanced-redux-pattern](http
 ## For more question follow me
 - twitter [@nenjotsu](https://twitter.com/nenjotsu)
 - github [@nenjotsu](https://github.com/nenjotsu)
-
+- medium [@nenjotsu](https://medium.com/@nenjotsu)
