@@ -17,9 +17,18 @@ visit the [https://codesandbox.io/s/github/nenjotsu/advanced-redux-pattern](http
 - Implement Folder Structure for Containers & Components
 - Api Error handling in single pipeline
 
+## Why do you need a sub dipatch
+For instance you will need to maintain the flow of dispatch in separate folder, to adhere the separation of concerns and debugging purposes, the component will remain clean and not cluttered of multiple or series of this.props.getEpicOne(), this.props.getEpicTwo(), here are reasons why:
+  - clean and not cluttered dispatch inside a component
+  - easy to debug the side effects in multiple requests
+  - manageable flow dispatch to handle multiple dispatch and ajax request
+  - dispatch a regular actions alongside with the actions with side effects
+  - debuggable flow where/when you start the spinner (loading) and where to stop it
+  - reusable dispatch for ajax request, ui, or master data
+  - scalable redux and open for extension once you want to use other middleware like `redux-saga`, co-existing or even while you are implementing a new technology for a specific module/usecase.
 
 ## TODOs
-- Tutorial @medium article - In-progress
+- Tutorial @medium article - `in-progress`
 - Implement [reselect](https://github.com/reduxjs/reselect) for memoizing redux state
 
 ## For more question follow me
