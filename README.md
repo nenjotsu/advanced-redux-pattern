@@ -2,7 +2,9 @@
 
 Advanced redux pattern for handling multiple sub dispatch, reusable middleware and scalable redux for large application.
 
-Live Demo the [https://codesandbox.io/s/github/nenjotsu/advanced-redux-pattern](https://codesandbox.io/s/github/nenjotsu/advanced-redux-pattern)
+Live Demo
+
+[![Edit advanced-redux-pattern](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/kmwo4vr4x3)
 
 Inspiration [Advanced Redux Patterns - Nir Kaufman @ ReactNYC](https://youtu.be/JUuic7mEs-s)
 
