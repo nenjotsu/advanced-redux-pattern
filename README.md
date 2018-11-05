@@ -18,6 +18,7 @@ Inspiration [Advanced Redux Patterns - Nir Kaufman @ ReactNYC](https://youtu.be/
 - Readable Action Types in redux-dev-tools 
 - Implement Folder Structure for Containers & Components
 - Api Error handling in single pipeline
+- Tutorial @medium [article](https://medium.com/@nenjotsu/scalable-redux-advanced-pattern-with-reactjs-c56ea97245f)
 
 ## Why do you need a sub dipatch
 For instance you will need to maintain the flow of dispatch in separate folder, to adhere the separation of concerns and debugging purposes, the component will remain clean and not cluttered of multiple or series of this.props.getEpicOne(), this.props.getEpicTwo(), here are reasons why:
@@ -30,7 +31,6 @@ For instance you will need to maintain the flow of dispatch in separate folder, 
   - scalable redux and open for extension once you want to use other middleware like `redux-saga`, co-existing or even while you are implementing a new technology for a specific module/usecase.
 
 ## TODOs
-- Tutorial @medium article - `in-progress`
 - Implement [reselect](https://github.com/reduxjs/reselect) for memoizing redux state
 
 ## For more question follow me
